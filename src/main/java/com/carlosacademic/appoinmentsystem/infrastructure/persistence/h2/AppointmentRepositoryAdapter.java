@@ -1,7 +1,7 @@
 package com.carlosacademic.appoinmentsystem.infrastructure.persistence.h2;
 
 import com.carlosacademic.appoinmentsystem.domain.model.Appointment;
-import com.carlosacademic.appoinmentsystem.domain.model.NotFoundException;
+import com.carlosacademic.appoinmentsystem.domain.model.exceptions.NotFoundException;
 import com.carlosacademic.appoinmentsystem.domain.repository.AppointmentRepositoryPort;
 import com.carlosacademic.appoinmentsystem.infrastructure.persistence.mapper.AppointmentEntityMapper;
 import lombok.RequiredArgsConstructor;

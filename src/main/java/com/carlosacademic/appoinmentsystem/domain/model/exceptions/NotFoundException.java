@@ -1,4 +1,4 @@
-package com.carlosacademic.appoinmentsystem.domain.model;
+package com.carlosacademic.appoinmentsystem.domain.model.exceptions;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;

@@ -1,6 +1,6 @@
 package com.carlosacademic.appoinmentsystem.infrastructure.controller;
 
-import com.carlosacademic.appoinmentsystem.domain.model.NotFoundException;
+import com.carlosacademic.appoinmentsystem.domain.model.exceptions.NotFoundException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.ErrorResponse;
